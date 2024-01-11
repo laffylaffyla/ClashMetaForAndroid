@@ -9,7 +9,7 @@ buildscript {
     repositories {
         mavenCentral()
         google()
-        maven("https://maven.kr328.app/releases")
+        maven("https://raw.githubusercontent.com/MetaCubeX/maven-backup/main/releases")
     }
     dependencies {
         classpath(libs.build.android)
