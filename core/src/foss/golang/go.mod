@@ -48,7 +48,7 @@ require (
 	github.com/metacubex/sing-quic v0.0.0-20231008050747-a684db516966 // indirect
 	github.com/metacubex/sing-shadowsocks v0.2.5 // indirect
 	github.com/metacubex/sing-shadowsocks2 v0.1.4 // indirect
-	github.com/metacubex/sing-tun v0.1.15-0.20231102032628-0f8a17217e56 // indirect
+	github.com/metacubex/sing-tun v0.1.15-0.20231103033938-170591e8d5bd // indirect
 	github.com/metacubex/sing-vmess v0.1.9-0.20230921005247-a0488d7dac74 // indirect
 	github.com/metacubex/sing-wireguard v0.0.0-20231001110902-321836559170 // indirect
 	github.com/miekg/dns v1.1.56 // indirect
@@ -109,7 +109,5 @@ replace github.com/sagernet/sing => github.com/metacubex/sing v0.0.0-20231001053
 replace cfa => ../../main/golang
 
 replace github.com/Dreamacro/clash => ./clash
-
-replace github.com/Kr328/tun2socket => github.com/metacubex/tun2socket v0.0.0-20220414050025-d07c78d06d34
 
 replace cfa/blob => ../../../build/intermediates/golang_blob
