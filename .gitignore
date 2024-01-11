@@ -2,6 +2,7 @@
 build/
 /app/foss/release
 /app/premium/release
+/app/meta
 /captures
 
 # Ignore Gradle GUI config
