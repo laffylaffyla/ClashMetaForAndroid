@@ -1,1 +1,2 @@
-写着玩
+Just for fun  
+Run away at any time  

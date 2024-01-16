@@ -24,7 +24,7 @@ subprojects {
     repositories {
         mavenCentral()
         google()
-        maven("https://maven.kr328.app/releases")
+        maven("https://raw.githubusercontent.com/MetaCubeX/maven-backup/main/releases")
     }
 
     val isApp = name == "app"
@@ -40,7 +40,7 @@ subprojects {
             minSdk = 21
             targetSdk = 31
 
-            versionName = "2.9.0.1"
+            versionName = "2.9.1"
             versionCode = 209001
 
             resValue("string", "release_name", "v$versionName")
